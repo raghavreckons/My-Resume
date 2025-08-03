@@ -1,0 +1,160 @@
+{
+  "personal_info": {
+    "name": "RAGHAVENDRA PVLN",
+    "email": "raghavendrapvln@gmail.com",
+    "phone": "+91 789 3150956",
+    "location": "India",
+    "linkedin": "https://www.linkedin.com/in/raghavendra-penumarthi-49793168/",
+    "domain": "Digital Transformation, General Management, Analytics Strategy"
+  },
+  "experience": [
+    {
+      "title": "Chief Manager",
+      "company": "IndusInd Bank",
+      "duration": "August 2024 \u2013 Present",
+      "months": 5,
+      "key_achievements": [
+        "Spearheaded solution design for enterprise-wide Loan Origination Systems",
+        "Architected modular framework integrated with CBS",
+        "Led vendor evaluations and contract finalization",
+        "Developed real-time analytics dashboards",
+        "Integrated predictive models for risk scoring"
+      ]
+    },
+    {
+      "title": "Senior Product Manager / Digital Transformation Consultant",
+      "company": "Hitachi Vantara",
+      "duration": "August 2021 \u2013 July 2024",
+      "months": 36,
+      "key_achievements": [
+        "Designed Lead-to-Cash Digital Platform",
+        "Led cloud migration strategy for European Bank",
+        "Delivered Investor Intelligence Platform",
+        "Replaced legacy system with Azure microservices",
+        "Reduced latency by 40% and operating cost by 30%"
+      ]
+    },
+    {
+      "title": "Business Systems Analyst",
+      "company": "UnitedHealth Group (Optum)",
+      "duration": "June 2018 \u2013 August 2021",
+      "months": 38,
+      "key_achievements": [
+        "Owned development of clinical data modules",
+        "Led epidemiological research data operations",
+        "Automated reporting pipelines supporting 200+ users",
+        "Enabled end-to-end analytics lifecycle"
+      ]
+    },
+    {
+      "title": "Software Engineering Analyst",
+      "company": "Accenture",
+      "duration": "September 2014 \u2013 June 2018",
+      "months": 45,
+      "key_achievements": [
+        "Defined GDPR-compliant architecture",
+        "Managed Rebate Billing System",
+        "Created cohort-based tagging framework",
+        "Built cross-source member timeline architecture"
+      ]
+    }
+  ],
+  "technical_skills": {
+    "Digital Transformation": {
+      "level": 95,
+      "category": "Strategy"
+    },
+    "Azure": {
+      "level": 90,
+      "category": "Cloud"
+    },
+    "Python": {
+      "level": 85,
+      "category": "Programming"
+    },
+    "Power BI": {
+      "level": 88,
+      "category": "Analytics"
+    },
+    "SQL": {
+      "level": 90,
+      "category": "Database"
+    },
+    "Tableau": {
+      "level": 85,
+      "category": "Analytics"
+    },
+    "Databricks": {
+      "level": 80,
+      "category": "Analytics"
+    },
+    "Machine Learning": {
+      "level": 82,
+      "category": "AI/ML"
+    },
+    "Data Lakes": {
+      "level": 85,
+      "category": "Data"
+    },
+    "Microservices": {
+      "level": 88,
+      "category": "Architecture"
+    }
+  },
+  "leadership_skills": {
+    "Team Leadership": 95,
+    "Strategic Planning": 92,
+    "Stakeholder Management": 90,
+    "Project Management": 88,
+    "Business Case Development": 85,
+    "Vendor Management": 87,
+    "Cross-functional Collaboration": 93
+  },
+  "education": [
+    {
+      "degree": "Executive Education: AGMP",
+      "institution": "IIM Ahmedabad",
+      "status": "In Progress (Complete Sept 2025)"
+    },
+    {
+      "degree": "MIT MicroMasters",
+      "institution": "MIT (EdX)",
+      "specialization": "Global Supply Chain Analytics, Predictive Modeling"
+    },
+    {
+      "degree": "B.Tech Computer Science",
+      "institution": "Anna University, Chennai",
+      "status": "Completed"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure Data Engineer (DP-200/201)",
+    "Microsoft Certified: Data Analyst (DA-100)",
+    "BCS Certified Business Analyst",
+    "Certified in Data Science using Python"
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Telugu",
+    "Tamil"
+  ],
+  "career_highlights": {
+    "total_experience": "10+ years",
+    "industries": [
+      "Financial Services",
+      "Healthcare",
+      "Technology"
+    ],
+    "key_domains": [
+      "Digital Transformation",
+      "Enterprise Analytics",
+      "Data-driven Decision Making"
+    ],
+    "specializations": [
+      "Cloud Migration",
+      "Analytics Strategy",
+      "System Modernization"
+    ]
+  }
+}
