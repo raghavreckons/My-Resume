@@ -7,19 +7,63 @@ document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
     initSmoothScrolling();
     initInteractiveEffects();
-    initDownloadButton();
+    initDownloadFunctionality();
 });
 
 // Download/Print functionality
-function initDownloadButton() {
-    const downloadBtn = document.querySelector('.download-btn');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', function(e) {
+function initDownloadFunctionality() {
+    const downloadButtons = document.querySelectorAll('.download-btn');
+    
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', async function(e) {
             e.preventDefault();
-            handlePrint();
+            
+            const fileName = this.getAttribute('href');
+            if (!fileName) {
+                console.error('No file name specified');
+                return;
+            }
+
+            try {
+                // Try to fetch the PDF file
+                const response = await fetch(fileName);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                // Get the blob from the response
+                const blob = await response.blob();
+                
+                // Create a temporary link element
+                const downloadUrl = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = downloadUrl;
+                link.download = fileName;
+                
+                // Append link to body, click it, and remove it
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Clean up the URL object
+                window.URL.revokeObjectURL(downloadUrl);
+                
+            } catch (error) {
+                console.error('Error downloading file:', error);
+                // Fallback to direct download if fetch fails
+                window.location.href = fileName;
+            }
         });
-    }
+    });
 }
+
+// Add to the DOMContentLoaded event listener
+document.addEventListener('DOMContentLoaded', function() {
+    // ...existing initialization code...
+    initDownloadFunctionality();
+    // ...existing initialization code...
+});
 
 // Navigation functionality
 function initNavigation() {
